@@ -1,0 +1,212 @@
+{% extends 'University/basic.html' %}
+      {% block css %}
+            .col-md-3
+          {
+          display: inline-block;
+          margin-left:-4px;
+          }
+          .carousel-indicators .active {
+          background-color: blue;
+            }
+          .col-md-3 img{
+          width: 190px;
+    height: 255px;
+          }
+          body .carousel-indicator li{
+          background-color: blue;
+          }
+          body .carousel-indicators{
+          bottom: 0;
+          }
+          body .carousel-control-prev-icon,
+          body .carousel-control-next-icon{
+          background-color: blue;
+          }
+           body .no-padding{
+           padding-left: 0,
+           padding-right: 0;
+           }
+   {% endblock %}
+
+
+{% block body %}
+{% load static %}
+
+<div class="container">
+    <h1> Jodhpur Institute of Engineering & Technology<br>'NAAC "A" Grade , NBA Accredited, Ranked 1st by University'</h1>
+<div id="demo" class="carousel slide my-3" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1" ></li>
+      <li data-target="#demo" data-slide-to="2" ></li>
+    </ul>
+
+    <!--Slideshow starts here -->
+    <div class="container carousel-inner no-padding">
+
+      <div class="carousel-item active">
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src='{% static "University/eng.jpg " %}' class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Engineering</h5>
+                <p class="card-text">Reception	:0291-2868152
+                                      Dr. Rakesh Kothari: Registrar - JGI
+                                      </p>
+<!--                <p class="card-text">Apart from the ranking and accreditation that set us apart, Engineering at JIET provides you an ingenious platform to learn in the real world atmosphere. Exposure to latest developments in the current technology driven era by insustry experts, and multifaceted programmes being run by different Cells for the all round development equip our students with cutting-edge training that not only develop industry ready professionals but also shape corporate leaders..</p>-->
+                <a href="#" class="btn btn-primary">READ MORE</a>
+            </div>
+          </div>
+       </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src='{% static "University/HM.jpg" %}' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Management</h5>
+              <p class="card-text">Dr. Chetana Gomber: Dy. Registrar JIHM
+              Hotel Management: 9799999187</p>
+<!--              <p class="card-text">JIET ventured into Hotel Management education with an aim of creating hospitality leaders. It is the first private IHM in the state of Rajasthan affiliated with NCHMCT. JIHM is fully equiped with state- of -the -art facilities and boasts of an impressive architecture that gives it an international touch. Experienced faculty and experts in the field of Hotel Management from different parts of India have been roped in for a superlative academic experience. Alliances with top notch luxury hotels in Jodhpur ensure that our students will undergo practical training with the best in the hotel industry..</p>-->
+              <a href="#" class="btn btn-primary">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src='{% static "University/nursing.jpg" %}' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nursing</h5>
+              <p class="card-text">Mr. Nishant Goyal : Head – HR & Establishmen
+              Nursing: 9799999189</p>
+<!--              <p class="card-text">Nursing programme at JIETCON has significantly expanded the discipline of Nursing as a profession, art, and science like no other place. The students are able to learn and understand the naunces of this noble profession with an impetur on compassion and care under the guidance of proficient faculty. The beyond syllabus programmes, one of the unique features of JIETCON i.e. Spoken English classes that suit the Nursing profession, hands-on0experience at our parental tertiary care hospital of Western Rajasthan. Medipulse Hospital and field exposure through various medical camps arm our students with the indepth knowledge of Nursing arena.</p>-->
+              <a href="#" class="btn btn-primary">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="card" style="width: 18rem;">
+            <img src='{% static "University/MBA.jpg" %}' class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MBA</h5>
+              <p class="card-text">Ms. Aishwarya Prabhakar: Head – HR & Establishment
+              MBA:	9828031516</p>
+<!--              <p class="card-text">The Management course being offered at JIET is supplemented by value added programmes to develop the entrepreneurial spirit with a difference among its students. Interactive sessions by management gurus, case study method and project based learning form a definitive course of action to nurture creative thinking and build managerial skills to the optimum in our students.</p>-->
+              <a href="#" class="btn btn-primary">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+<!--      <div class="carousel-item">-->
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--                <h5 class="card-title">Card title</h5>-->
+<!--                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--              <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--              <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--              <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="carousel-item">-->
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--                <h5 class="card-title">Card title</h5>-->
+<!--                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--                <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--       </div>-->
+
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--              <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--              <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+
+<!--        <div class="col-xs-3 col-sm-3 col-md-3">-->
+<!--          <div class="card" style="width: 18rem;">-->
+<!--            <img src='{% static "shop/test.jpg" %}' class="card-img-top" alt="...">-->
+<!--            <div class="card-body">-->
+<!--              <h5 class="card-title">Card title</h5>-->
+<!--              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+<!--              <a href="#" class="btn btn-primary">Go somewhere</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+
+</div>
+</div>
+    <!-- left and right controls for the slide -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+
+
+
+     {% endblock %}
+
+    </div>
